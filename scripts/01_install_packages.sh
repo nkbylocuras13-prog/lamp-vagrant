@@ -3,7 +3,7 @@
 # Update repositories and install LAMP packages
 set -xeu
 export DEBIAN_FRONTEND=noninteractive
-apt-get update -y 2
+apt-get update -y 
 apt-get install -y \
 apache2 \
 apache2-doc \
