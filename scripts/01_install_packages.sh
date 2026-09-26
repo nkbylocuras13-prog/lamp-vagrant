@@ -2,7 +2,7 @@
 # scripts/01_install_packages.sh
 # Update repositories and install LAMP packages
 set -xeu
-export DEBIAN_FRONTEND=noninteractive 1
+export DEBIAN_FRONTEND=noninteractive
 apt-get update -y 2
 apt-get install -y \
 apache2 \
